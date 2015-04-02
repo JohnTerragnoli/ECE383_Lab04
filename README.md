@@ -10,3 +10,5 @@ Create a function generator.  Signal should be "stored" in memory and output on 
 2. include boxes in datapath
 3. control and status word relating the two
 
+#Milestone #1
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab03/master/Pictures/lab2Arch.jpg "lab02 schematic")
