@@ -25,7 +25,7 @@ Create a function generator.  Signal should be "stored" in memory and output on 
 
 ##Requirements: 
 
-1. Write a working testbench for all of lab04.  
+1. Write a working testbench to simulate pressing a button to change the frequency and show that BRAM is being incremented by this new value.   
 2. generate ready signal instead of using the AC97. 
 3. use a simple waveform at first, and then use the actual sine wave
 4. Timing Diagram should include
