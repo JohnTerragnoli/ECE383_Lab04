@@ -29,6 +29,7 @@ Create a function generator.  Signal should be "stored" in memory and output on 
 2. generate ready signal instead of using the AC97. 
 3. use a simple waveform at first, and then use the actual sine wave
 4. Timing Diagram should include
+5. 
 - clk
 - reset
 - ready (simulated using CSA Statements in testbench
