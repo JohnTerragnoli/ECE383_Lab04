@@ -40,3 +40,7 @@ Create a function generator.  Signal should be "stored" in memory and output on 
   * Multiplied data out (if aiming for B or F functionality)
   * Slide Swiches
   * Button Values
+ 
+
+##Process: 
+1. 
