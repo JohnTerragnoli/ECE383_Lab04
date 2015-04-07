@@ -43,4 +43,8 @@ Create a function generator.  Signal should be "stored" in memory and output on 
  
 
 ##Process: 
-1. 
+1. First, the block diagrams of the FMS and the datapath were realized in code.  The FSM was made to be its own module, while the datapath was broken up into several parts.  First the BRAM was instantiated, then the read register logic was created, then the change frequency logic was established, and finally the output logic for the data being read from BRAM was made.  A testbench was made for the datapath, except it did not behave as expected.  The states changed appropriately, and the switches held their values, the buttons were being read.  However, the data out of the BRAM was not changing.  I decided to check for the following issues.
+2. **How is the cw Changing?**
+I just added this signal to the testbench quickly and saw that it was changing as designed.  I stuck with it until further notice.
+3. **Read Address Changing?** 
+I then looked at what the read address was from BRAM.  When I added this signal to the test bench, I noticed that all of the values being input from the read register logic were undefined.  My first instinct is that this may be from not instantiating the vector properly before adding to it. 
