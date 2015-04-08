@@ -41,6 +41,7 @@ Create a function generator.  Signal should be "stored" in memory and output on 
   * Slide Swiches
   * Button Values
  
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Pictures/Inc%20and%20dec%20works.PNG "inc and dec frequ works")
 
 ##Process: 
 1. First, the block diagrams of the FMS and the datapath were realized in code.  The FSM was made to be its own module, while the datapath was broken up into several parts.  First the BRAM was instantiated, then the read register logic was created, then the change frequency logic was established, and finally the output logic for the data being read from BRAM was made.  A testbench was made for the datapath, except it did not behave as expected.  The states changed appropriately, and the switches held their values, the buttons were being read.  However, the data out of the BRAM was not changing.  I decided to check for the following issues.
