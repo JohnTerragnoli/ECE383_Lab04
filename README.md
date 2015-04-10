@@ -57,8 +57,17 @@ I then looked at what the read address was from BRAM.  When I added this signal 
  - if a switch is not pushed up and either the left or right button is pressed, then the frequency will not change.  
  - if a switch is pushed up and either the left or the right button is pressed, then the frequency will change. 
  - it does not matter what switch is pressed up, the frequency will change by a different ammount every time regardless.  
- - if the reset button is hit, then the tone will stop completely and will not start again unless the FPGA is programmed again.  
+
+
 **Confirmed:** 
+
  - The buttons do control frequency change, and they are just changing the frequency really fast and rolling over.  We know this because if we try changing it by zero (all switches are down), then the frequency will not change.  
- - The connections for the reset must be missing something, probably in the datapath or the fsm. 
  - for some reason the board will not play a signal right from the start, which is pretty annoying.  
+
+
+**Play from the Start:**
+How is the incrememnt register being initialized?  It's coming from the fsm, where the initial state is called "initial.'  When this occurs, it outputs a cw of "10000" which is sent to the datapath to make sure everything is initialized.  Things which should be initialized are: 
+- the increment register
+- the reading from BRAM register
+- 
+
