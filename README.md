@@ -69,5 +69,6 @@ I then looked at what the read address was from BRAM.  When I added this signal 
 How is the incrememnt register being initialized?  It's coming from the fsm, where the initial state is called "initial.'  When this occurs, it outputs a cw of "10000" which is sent to the datapath to make sure everything is initialized.  Things which should be initialized are: 
 - the increment register
 - the reading from BRAM register
-- 
-
+- later set the coefficient to 1.  
+ 
+The incReg is currently being set to 000000000000000001 which could actually be too low to hear.  The readReg is set to 000000000000000000 so it can start reading BRAM from the beginning.  
