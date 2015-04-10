@@ -71,4 +71,4 @@ How is the incrememnt register being initialized?  It's coming from the fsm, whe
 - the reading from BRAM register
 - later set the coefficient to 1.  
  
-The incReg is currently being set to 000000000000000001 which could actually be too low to hear.  The readReg is set to 000000000000000000 so it can start reading BRAM from the beginning.  I tried changing the incReg so that it starts off with the right frequencyat the beginning and after the reset button is hit.  
+The incReg is currently being set to 000000000000000001 which could actually be too low to hear.  The readReg is set to 000000001000000000 so it can start reading BRAM from the beginning.  I tried changing the incReg so that it starts off with the right frequencyat the beginning and after the reset button is hit.  When I did this, I got a low buzzing noise to come from my headphones.  I tried upping the initial value to 000001000000000000 to see what it would sound like then, to make sure it wasn't just static noise or something.  
