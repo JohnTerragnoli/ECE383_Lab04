@@ -74,3 +74,10 @@ How is the incrememnt register being initialized?  It's coming from the fsm, whe
 The incReg is currently being set to 000000000000000001 which could actually be too low to hear.  The readReg is set to 000000001000000000 so it can start reading BRAM from the beginning.  I tried changing the incReg so that it starts off with the right frequencyat the beginning and after the reset button is hit.  When I did this, I got a low buzzing noise to come from my headphones.  I tried upping the initial value to 000001000000000000 to see what it would sound like then, to make sure it wasn't just static noise or something.  When I did this, I got a constant noise to output initially and after a reset had been hit.  The note was a little high, around 750Hz based on the oscilloscope.  
 
 I tried adding the button logic again, which would keep the buttons from skipping.  I did this again with the logic from lab02 and it did work.  The buttons then worked!  They were able to change the frequency ever so slightly, and with accordance to number represented on the switches.  However, the left and right button both made the frequency increase.  This gave me doubts to see if the negation was truly working, so I checked it out again in the datapath.  
+
+
+#Required Functionality: 
+The oscilloscope wasn't working propertly; the signal was not loud enough to show up on the screen properly.  So here is audio proof that the sound plays and that it can be incremented: 
+
+[required](https://www.youtube.com/watch?v=CWTdzmFB70o&feature=youtu.be)
+
