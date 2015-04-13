@@ -81,3 +81,17 @@ The oscilloscope wasn't working propertly; the signal was not loud enough to sho
 
 [required](https://www.youtube.com/watch?v=CWTdzmFB70o&feature=youtu.be)
 
+
+#Code
+
+[Lab04.vhd]()
+[Lab04_datapath.vhd]()
+[Lab04_fsm.vhd]()
+[Lab04_tb.vhd]()
+[ac97.vhd]()
+[lab2_pack.vhd]()
+
+
+#Documentation: 
+NONE
+
