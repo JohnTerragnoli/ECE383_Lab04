@@ -84,12 +84,12 @@ The oscilloscope wasn't working propertly; the signal was not loud enough to sho
 
 #Code
 
-[Lab04.vhd]()
-[Lab04_datapath.vhd]()
-[Lab04_fsm.vhd]()
-[Lab04_tb.vhd]()
-[ac97.vhd]()
-[lab2_pack.vhd]()
+[Lab04.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/Lab04.vhd)
+[Lab04_datapath.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/Lab04_datapath.vhd)
+[Lab04_fsm.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/Lab04_fsm.vhd)
+[Lab04_tb.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/Lab04_tb.vhd)
+[ac97.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/ac97.vhd)
+[lab2_pack.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/lab2_pack.vhd)
 
 
 #Documentation: 
