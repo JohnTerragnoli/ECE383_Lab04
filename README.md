@@ -82,6 +82,10 @@ The oscilloscope wasn't working propertly; the signal was not loud enough to sho
 [required](https://www.youtube.com/watch?v=CWTdzmFB70o&feature=youtu.be)
 
 
+#B Functionality 
+I was able to use a multiplier to change the volume of the output.  However, the volume would only change to go louder, and to the max every time.  I did not include this the first time because it is not exactly what was asked for.  However, at lest you know I tried to get this functionality. 
+
+
 #Code
 
 - [Lab04.vhd](https://raw.githubusercontent.com/JohnTerragnoli/ECE383_Lab04/master/Code/Lab04.vhd)
