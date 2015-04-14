@@ -1,34 +1,31 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company:  USAFA
+-- Engineer: C2C John Terragnoli 
 -- 
 -- Create Date:    13:54:00 04/03/2015 
--- Design Name: 
+-- Design Name: 	finite state machine
 -- Module Name:    Lab04_fsm - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Project Name: 	lab04
+-- Target Devices: ATYLS
+-- Tool versions: Spartan 6
+-- Description: 	controls the CW and which state the machine is in for producing a signal 
+--						from BRAM.  
 --
--- Dependencies: 
+-- Dependencies: none
 --
--- Revision: 
+-- Revision: none
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: none
 --
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
 library UNISIM;
 use UNISIM.VComponents.all;
 use work.lab2Parts.all;
+
+
 
 entity Lab04_fsm is
     Port ( clk : in  STD_LOGIC;

@@ -1,20 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company:  USAFA
+-- Engineer: C2C John Terragnoli 
 -- 
--- Create Date:    13:53:14 04/03/2015 
--- Design Name: 
+-- Create Date:    13:54:00 04/03/2015 
+-- Design Name: 	lab04 signal production
 -- Module Name:    Lab04 - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
+-- Project Name: 	lab04
+-- Target Devices: ATYLS
+-- Tool versions: Spartan 6
+-- Description: 	Generates a signal from information stored in memory.  The frequency and amplitude 
+--						of the signal can be changed using buttons on the FPGA board.  
 --
--- Dependencies: 
+-- Dependencies: none
 --
--- Revision: 
+-- Revision: none
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments: none
 --
 ----------------------------------------------------------------------------------
 library IEEE;
